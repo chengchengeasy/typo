@@ -43,6 +43,8 @@ gem 'rubypants', '~> 0.2.0'
 gem 'rake', '~> 0.9.2'
 gem 'acts_as_list'
 gem 'acts_as_tree_rails3'
+
+gem 'pg'
 gem 'recaptcha'
 #gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
 
@@ -53,7 +55,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
   gem 'simplecov', :require => false
   #gem 'sqlite3'
-  gem 'pg'
   gem 'cucumber'
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
